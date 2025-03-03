@@ -19,7 +19,7 @@ def crime_reports():
     st.title('Crime Reports Heatmap')
 
     # Load the crime reports data
-    crime_reports_csv_path = 'crime_reports.csv'
+    crime_reports_csv_path = 'data/crime_reports.csv'
     crime_reports_data = pd.read_csv(crime_reports_csv_path)
 
     # Extract latitude and longitude columns

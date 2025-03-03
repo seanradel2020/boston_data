@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+
 *.py[cod]
 *$py.class
 
@@ -169,3 +170,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+__pycache__/crime.cpython-313.pyc

@@ -81,17 +81,16 @@ deactivate
 ```
 
 ## Additional Information
+- If you encounter any issues, please refer to the [Streamlit documentation](https://docs.streamlit.io/)
 
-- Make sure to keep your data files (e.g., `shootings.csv`, `gunrecovery.csv`, `crime_reports.csv`) in the same directory as `app.py` or update the file paths in the code accordingly.
-- If you encounter any issues, please refer to the [Streamlit documentation](https://docs.streamlit.io/) or the [Python documentation](https://docs.python.org/3/).
+**Data Sources**
+- [Crime Incident Reports](https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system/resource/b973d8cb-eeb2-4e7e-99da-c92938efc9c0)
+- [Gun Recovery](https://data.boston.gov/dataset/boston-police-department-firearm-recovery-counts)
+- [Shootings](https://data.boston.gov/dataset/shootings)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-This 
-
-README.md
-
- file provides step-by-step instructions for setting up a Python environment, installing necessary packages, and running the Streamlit app on both macOS and Windows. It also includes additional information and a license section.
+This README.md file provides step-by-step instructions for setting up a Python environment, installing necessary packages, and running the Streamlit app on both macOS and Windows. It also includes additional information and a license section.
