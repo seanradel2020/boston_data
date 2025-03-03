@@ -6,7 +6,7 @@ def gun_recovery_data_page():
     st.title('Gun Recovery Data')
 
     # Load the gun recovery data
-    gunrecovery_csv_path = 'data/gunrecovery.csv'
+    gunrecovery_csv_path = '../data/gunrecovery.csv'
     gunrecovery_data = pd.read_csv(gunrecovery_csv_path)
 
     # Convert dates to datetime and ensure same timezone
@@ -29,7 +29,7 @@ def gun_recovery_data_page():
     st.pyplot(fig)
 
     # Load the shootings data for correlation analysis
-    shootings_csv_path = 'data/shootings.csv'
+    shootings_csv_path = '../data/shootings.csv'
     shootings_data = pd.read_csv(shootings_csv_path)
 
     # Calculate the number of gun deaths

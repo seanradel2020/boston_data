@@ -6,7 +6,7 @@ def shootings_data_page():
     st.title('Boston Shootings Data')
 
     # Load the shootings data
-    shootings_csv_path = 'data/shootings.csv'
+    shootings_csv_path = '../data/shootings.csv'
     shootings_data = pd.read_csv(shootings_csv_path)
 
     # Add a column for Hispanic victims
