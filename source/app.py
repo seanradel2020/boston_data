@@ -5,6 +5,9 @@ from crime import *
 from shootings import *
 from gunrecovery import *
 from rentsmart import *
+from cityhallelectricity import *
+from economic import *
+from femalevoters import *
 
 def home():
     st.title('Home')
@@ -14,7 +17,7 @@ def home():
 def main():
     # Sidebar navigation
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Home", "Shootings Data", "Gun Recovery Data", "Crime Map", "Rental Violations"])
+    page = st.sidebar.radio("Go to", ["Home", "Shootings Data", "Gun Recovery Data", "Crime Map", "Rental Violations", "City Hall Electricity", "Economic Data", "Female Voter Data (1884-1919)"])
 
     # Page selection
     if page == "Home":
@@ -27,6 +30,12 @@ def main():
         crime_reports()
     elif page == "Rental Violations":
         Violations()
+    elif page == "City Hall Electricity":
+        electricity()
+    elif page == "Economic Data":
+        economic()
+    elif page == "Female Voter Data (1884-1919)":
+        female_voters()
 
 
 if __name__ == '__main__':
